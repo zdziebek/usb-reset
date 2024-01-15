@@ -26,4 +26,4 @@ do
     echo "  done."
 done
 
-#while true; do sleep 1; done
+while true; do sleep 1; done

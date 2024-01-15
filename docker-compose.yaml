@@ -1,0 +1,11 @@
+version: '3'
+services:
+  usb-reset:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: zdziebek/usb-reset:latest
+    volumes:
+      - /sys:/sys:rw
+      - /dev:/dev:rw
+    privileged: true

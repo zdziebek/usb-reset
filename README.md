@@ -14,4 +14,4 @@ OR
 docker compose up -d`
 
 
-Taken from user `hoijui` [link - stackexchange](https://unix.stackexchange.com/questions/704341/how-to-reset-usb-controllers)
+Taken from user `hoijui` [link](https://unix.stackexchange.com/questions/704341/how-to-reset-usb-controllers)

@@ -10,8 +10,7 @@ Prepared for the needs of 3D printers
 
 OR
 
-`git clone https://github.com/zdziebek/usb-reset
-docker compose up -d`
+`git clone https://github.com/zdziebek/usb-reset;cd usb-reset;docker compose up -d;`
 
 
 Taken from user `hoijui` [link](https://unix.stackexchange.com/questions/704341/how-to-reset-usb-controllers)

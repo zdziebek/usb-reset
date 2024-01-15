@@ -5,9 +5,6 @@ https://unix.stackexchange.com/questions/704341/how-to-reset-usb-controllers
 
 example run 
 
-docker run -it --rm \
-  --name usb-reset \
-  --privileged \
-  -v /sys:/sys:rw \
-  -v /dev:/dev:rw \
-  zdziebek/usb-reset:latest
+docker run -it --rm --name usb-reset --privileged -v /sys:/sys:rw -v /dev:/dev:rw zdziebek/usb-reset:latest
+OR
+docker compose up -d 

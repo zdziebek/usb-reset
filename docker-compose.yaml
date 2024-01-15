@@ -5,6 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: zdziebek/usb-reset:latest
+    restart: unless-stopped
     volumes:
       - /sys:/sys:rw
       - /dev:/dev:rw
